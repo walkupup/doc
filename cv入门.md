@@ -35,7 +35,7 @@ Linux建议采用Ubuntu Desktop for developers 14或16，https://www.ubuntu.com/
 
 Python开发环境搭建：
 
-windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见yangli/python-windows.md；
+windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见https://github.com/micvlab/doc/tree/master/yangli/python-windows.md；
 
 linux下python开发非常友好，先装anaconda或原版python，然后装pycharm。
 
