@@ -39,6 +39,8 @@ windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见
 
 linux下python开发非常友好，先装anaconda或原版python，然后装pycharm。
 
+如果没有明确要求，python2.7就够了，你也可以2.7和3.x版本都装，不同版本可以共存。
+
 # 2. 数学基础
 
 需要用到的数学基础如下，这也是人工智能领域入门最基本的数学知识。先不用专门去学。
