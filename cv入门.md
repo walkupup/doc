@@ -19,7 +19,7 @@
 
 可以边用边学，需要用到什么学什么。
 
-系统一点的教程，廖雪峰的还不错  http://www.liaoxuefeng.com ，
+如果想系统学习，廖雪峰的教程还不错  http://www.liaoxuefeng.com 
 
 ## 编程环境和开发工具
 
