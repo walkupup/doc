@@ -23,11 +23,11 @@
 
 ## 1.3 编程环境和开发工具
 
-Windows和Linux环境二选一即可，但涉及到具体项目，两个平台都有可能涉及，算法一般是平台无关的。
+算法一般是平台无关，Windows和Linux环境二选一即可，但涉及到具体项目，两个平台都有可能涉及。
 
 经常会用到开源项目，因此上github 和cmake的简单使用必不可少。
 
-Windows下建议采用win7/10 64位，visual studio 2013、2015、2017均可
+Windows下建议采用win7/10 64位，visual studio是最好用的IDE，建议使用，vs2013、2015、2017均可。
 
 Linux建议采用Ubuntu Desktop for developers 14或16，https://www.ubuntu.com/desktop/developers
 
@@ -37,8 +37,58 @@ Python开发环境搭建：
 
 windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见yangli/python-windows.md；
 
-linux下python开发非常友好，先装anaconda或原版python，然后也可以用pycharm。
+linux下python开发非常友好，先装anaconda或原版python，然后装pycharm。
 
 
+# 数学基础
 
+需要用到的数学基础如下，这也是人工智能领域入门最基本的数学知识。
+
+## 线性代数、概率论
+
+大一就学了，这应该不成问题。
+
+## 最优化
+
+最优化理论常用到，特别是梯度下降法和非线性最小二乘，只要会微积分求导就没问题。
+
+# 计算机视觉
+
+## SLAM相关
+
+《视觉SLAM十四讲》高博。这是一本新书，有电子版，强烈推荐。
+
+slam算法的实际操作，建议从 ORB_SLAM2这个开源项目入手，此方法效果好，适合入门。https://github.com/raulmur/ORB_SLAM2
+
+注：1）微信公众号，泡泡机器人，建议关注。2）资源列表 https://github.com/OpenSLAM/awesome-SLAM-list  3）Multiple View Geometry in Computer Vision 2ed - Hartley R., Zisserman A 这是经典之作，但暂不要求通篇阅读。《计算机视觉中的数学方法》内容相似，可以参考。
+
+## opencv
+
+从官网下载opencv最新版，要求windows和linux两个平台都会编译。
+
+利用opencv实现至少10个小例子，每个例子实现一个小功能，至少应包括：图像缩放、边缘检测、人脸检测、行人检测、目标跟踪、特征点匹配。
+
+windows平台的opencv的基本用法可参考“opencv入门教程.pdf”（于仕琪），用的是vs2010，但vs2013以上版本用法基本一样。
+
+opencv有C和C++两套接口，前者是旧的接口，建议不要使用。如何分辨新旧接口？以小写cv开头的函数都是旧接口。
+
+这里有我收集的一些小例子供参考 http://git.oschina.net/walkup/opencvexample
+
+
+# 机器学习
+
+推荐的优秀教材和视频：
+
+1. 统计学习方法，李航。这是一本机器学习的国内经典之作。
+
+2. 机器学习，周志华。这是继统计学习方法之后的又一本经典之作。建议阅读1~10章。
+
+3. Andrew NG机器学习课程。注意！是coursera上的machine learning课程，不是网易公开课的。 
+
+可在coursera上直接观看或下载学习，有中英文字幕。
+
+# 深度学习
+
+参考 https://github.com/micvlab/doc/tree/master/practice  入门学习任务表
+ 
 
