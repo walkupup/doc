@@ -5,7 +5,7 @@
 
 # 1. C++，python编程
 
-## C++编程基础
+## C++编程基础（必学）
 
 了解：C++标准库 STL
 
@@ -57,17 +57,22 @@ linux下python开发非常友好，先装anaconda或原版python，然后装pych
 
 ## SLAM相关
 
-《视觉SLAM十四讲》高博。这是一本新书，有电子版，强烈推荐。
+《视觉SLAM十四讲》高博。这是一本新书，有电子版，强烈推荐。（必学）
 
-slam算法的实际操作，建议从 ORB_SLAM2这个开源项目入手，此方法效果好，适合入门。https://github.com/raulmur/ORB_SLAM2
+建议调试和阅读 ORB_SLAM2这个开源项目代码，此算法效果好，适合入门。https://github.com/raulmur/ORB_SLAM2 
+推荐它的一个国内详细注释的版本 https://git.oschina.net/paopaoslam/ORB-SLAM2  （必学）
 
-注：1）微信公众号，泡泡机器人，建议关注。2）资源列表 https://github.com/OpenSLAM/awesome-SLAM-list  3）Multiple View Geometry in Computer Vision 2ed - Hartley R., Zisserman A 这是经典之作，但暂不要求通篇阅读。《计算机视觉中的数学方法》内容相似，可以参考。
+Multiple View Geometry in Computer Vision 2ed - Hartley 这是经典之作，但暂不要求通读。
 
-## opencv
+《计算机视觉中的数学方法》与上述英文书内容相似，可以参考，重点阅读摄像机几何、两视点几何这两章。（必学）
+
+注：1）微信公众号，泡泡机器人，建议关注。2）资源列表 https://github.com/OpenSLAM/awesome-SLAM-list 
+
+## opencv（必学）
 
 从官网下载opencv最新版，要求windows和linux两个平台都会编译。
 
-利用opencv实现至少10个小例子，每个例子实现一个小功能，至少应包括：图像缩放、边缘检测、人脸检测、行人检测、目标跟踪、特征点匹配。
+利用opencv实现至少10个小例子，每个例子实现一个小功能，至少应包括：图像缩放、边缘检测、人脸检测、目标跟踪、特征点匹配、摄像机标定。
 
 windows平台的opencv的基本用法可参考“opencv入门教程.pdf”（于仕琪），用的是vs2010，但vs2013以上版本用法基本一样。
 
@@ -76,7 +81,7 @@ opencv有C和C++两套接口，前者是旧的接口，建议不要使用。如�
 这里有我收集的一些小例子供参考 http://git.oschina.net/walkup/opencvexample
 
 
-# 4. 机器学习
+# 4. 机器学习（以下内容3选1必学）
 
 推荐的优秀教材和视频：
 
@@ -84,9 +89,8 @@ opencv有C和C++两套接口，前者是旧的接口，建议不要使用。如�
 
 2. 机器学习，周志华。这是继统计学习方法之后的又一本经典之作。建议阅读1~10章。
 
-3. Andrew NG机器学习课程。注意！是coursera上的machine learning课程，不是网易公开课的。 
+3. Andrew NG机器学习课程。注意！是coursera上的machine learning课程，不是网易公开课的。 可在coursera上直接观看或下载学习，有中英文字幕。
 
-可在coursera上直接观看或下载学习，有中英文字幕。
 
 # 5. 深度学习
 
