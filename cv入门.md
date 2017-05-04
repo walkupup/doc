@@ -80,6 +80,7 @@ opencv有C和C++两套接口，前者是旧的接口，建议不要使用。如�
 
 这里有我收集的一些小例子供参考 http://git.oschina.net/walkup/opencvexample
 
+这几本书可以参考：OpenCV3编程入门_毛星云，Mastering OpenCV with Practical Computer Vision，OpenCV for Secret Agents
 
 # 4. 机器学习（以下内容3选1必学）
 
