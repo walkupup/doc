@@ -27,6 +27,8 @@
 
 经常会用到开源项目，因此上github 和cmake的简单使用必不可少。
 
+windows下git或github的用法见 https://github.com/micvlab/doc/tree/master/yangli ，github使用说明.txt
+
 Windows下建议采用win7/10 64位，visual studio是最好用的IDE，建议使用，vs2013、2015、2017均可。
 
 Linux建议采用Ubuntu Desktop for developers 14或16，https://www.ubuntu.com/desktop/developers
@@ -35,7 +37,7 @@ Linux建议采用Ubuntu Desktop for developers 14或16，https://www.ubuntu.com/
 
 Python开发环境搭建：
 
-windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见https://github.com/micvlab/doc/tree/master/yangli/python-windows.md；
+windows下建议安装anaconda，然后装pycharm，在pycharm下编程，详见https://github.com/micvlab/doc/tree/master/yangli/python-windows.md  
 
 linux下python开发非常友好，先装anaconda或原版python，然后装pycharm。
 
