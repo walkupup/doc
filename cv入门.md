@@ -59,7 +59,7 @@ linux下python开发非常友好，先装anaconda或原版python，然后装pych
 
 ## SLAM相关
 
-《视觉SLAM十四讲》高博。这是一本新书，有电子版，强烈推荐。（必学）
+《视觉SLAM十四讲》高博。这是一本新书，有电子版，强烈推荐，重点学1~9讲及附录，其中第4讲李群比较理论化，可以先不必深究。（必学）
 
 建议调试和阅读 ORB_SLAM2这个开源项目代码，此算法效果好，适合入门。https://github.com/raulmur/ORB_SLAM2 
 推荐它的一个国内详细注释的版本 https://git.oschina.net/paopaoslam/ORB-SLAM2  （必学）
