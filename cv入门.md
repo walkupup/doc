@@ -27,7 +27,7 @@
 
 经常会用到开源项目，因此上github 和cmake的简单使用必不可少。
 
-windows下git或github的用法见 https://github.com/micvlab/doc/tree/master/yangli ，github使用说明.txt
+windows下git或github的用法见 https://github.com/micvlab/doc ，github使用说明.txt
 
 Windows下建议采用win7/10 64位，visual studio是最好用的IDE，建议使用，vs2013、2015、2017均可。
 
@@ -83,6 +83,8 @@ opencv有C和C++两套接口，前者是旧的接口，建议不要使用。如�
 这里有我收集的一些小例子供参考 http://git.oschina.net/walkup/opencvexample
 
 这几本书可以参考：OpenCV3编程入门_毛星云，Mastering OpenCV with Practical Computer Vision，OpenCV for Secret Agents
+
+这些书上自带的例子也很不错。
 
 # 4. 机器学习（以下内容3选1必学）
 
