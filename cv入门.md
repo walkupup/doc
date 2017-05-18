@@ -64,6 +64,8 @@ linux下python开发非常友好，先装anaconda或原版python，然后装pych
 建议调试和阅读 ORB_SLAM2这个开源项目代码，此算法效果好，适合入门。https://github.com/raulmur/ORB_SLAM2 
 推荐它的一个国内详细注释的版本 https://git.oschina.net/paopaoslam/ORB-SLAM2  （必学）
 
+slam中有一个基础性工作——摄像机标定，opencv的标定模型和程序用的比较多，《学习opencv》这本书里有讲，虽然这本书有点老，里面的代码是旧版本的接口，但第11章摄像机模型与标定值得看。opencv源码的sample目录下有calibration的例子。
+
 Multiple View Geometry in Computer Vision 2ed - Hartley 这是经典之作，但暂不要求通读。
 
 《计算机视觉中的数学方法》与上述英文书内容相似，可以参考，重点阅读摄像机几何、两视点几何这两章。（必学）
@@ -81,6 +83,8 @@ windows平台的opencv的基本用法可参考“opencv入门教程.pdf”（于
 opencv有C和C++两套接口，前者是旧的接口，建议不要使用。如何分辨新旧接口？以小写cv开头的函数都是旧接口。
 
 这里有我收集的一些小例子供参考 http://git.oschina.net/walkup/opencvexample
+
+opencv官方源码的sample目录下有非常丰富的例子。
 
 这几本书可以参考：OpenCV3编程入门_毛星云，Mastering OpenCV with Practical Computer Vision，OpenCV for Secret Agents
 
