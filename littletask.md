@@ -16,3 +16,6 @@ todo
 
 ## task 5 目标检测
 todo
+
+## task 6 手写字符识别
+todo
