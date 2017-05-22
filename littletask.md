@@ -19,3 +19,6 @@ todo
 
 ## task 6 手写字符识别
 todo
+
+## task 7 orbslam 调试和源码阅读
+todo
