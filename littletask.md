@@ -1,3 +1,5 @@
+# 一、视觉几何和图像相关
+
 ## task 1 标定你自己的相机
 任务描述：用你的手机，摄像模式，对着标定板拍摄，要求从不同角度去拍摄完整的标定板。或者拿你的usb摄像头或笔记本自带摄像头，写一个opencv程序采集一组图像，然后用标定程序标定摄像头参数。
 
@@ -5,24 +7,30 @@
 
 标定代码参考opencv samples目录下的calibration.cpp，程序需要输入标定板图像列表，以及标定板的规格9x6.
 
-## task 2 场景识别
+## task 2 图像旋转
+任务描述：写一个小程序，功能是输入一张图像，把它旋转任意指定的角度，输出。
+
+## task 3 场景识别
 任务描述：实现《视觉SLAM十四讲》中讲到的DBOW3 的例子，并在实际场景中展示效果。
 
-## task 3 orbslam 真实场景演示
+## task 4 orbslam 真实场景演示
 实现此任务，你需要先标定你自己的相机，把标定结果填到yaml文件里，https://git.oschina.net/paopaoslam/ORB-SLAM2 里面有yaml文件的例子。
 
 你还需要一个字典文件，在 https://github.com/raulmur/ORB_SLAM2  的 Vocabulary目录下。
 
 然后你就可以在手机上运行orbslam的app看到效果了，apk文件在这里 https://github.com/FangGet/ORB_SLAM2_Android
 
-## task 4 背景建模
+## task 5 orbslam 调试和源码阅读
 todo
 
-## task 5 目标检测
+
+# 二、机器学习相关
+
+## task 1 背景建模
 todo
 
-## task 6 手写字符识别
+## task 2 目标检测
 todo
 
-## task 7 orbslam 调试和源码阅读
+## task 3 手写字符识别
 todo
