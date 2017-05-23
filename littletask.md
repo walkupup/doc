@@ -11,7 +11,7 @@
 任务描述：写一个小程序，功能是输入一张图像，把它旋转任意指定的角度，输出。
 
 ## task 3 场景识别
-任务描述：实现《视觉SLAM十四讲》中讲到的DBOW3 的例子，并在实际场景中展示效果。
+任务描述：实现《视觉SLAM十四讲》中讲到的DBOW3 的例子，并在实际场景中展示效果。要求掌握算法原理。
 
 ## task 4 orbslam 真实场景演示
 实现此任务，你需要先标定你自己的相机，把标定结果填到yaml文件里，https://git.oschina.net/paopaoslam/ORB-SLAM2 里面有yaml文件的例子。
@@ -23,11 +23,21 @@
 ## task 5 orbslam 调试和源码阅读
 todo
 
+## task 6 编译opencv及opencv_contrib
+任务描述：在windows或linux下编译opencv及opencv_contrib
+
+素材：到opencv官网下载最新版 opencv.org ， opencv_contrib 到这里下载： https://github.com/opencv/opencv_contrib
+opencv_contrib 是最新的尚未加入正式版的算法。
+
 
 # 二、机器学习相关
 
 ## task 1 背景建模
-todo
+任务描述：输入一段监控视频（即摄像机固定不动），将背景和前景分割开来。跑通程序功能，评估各种算法效果和性能，并搞懂算法原理。
+
+素材：https://git.oschina.net/walkup/opencvexample 我整理的这个opencv例子下面，motion 是一个前景分割的例子，包含两种算法，均来自opencv的官方例子。
+
+另外Opencv_contrib 里有个模块，bgsegm: Background segmentation algorithm combining statistical background image estimation and per-pixel Bayesian segmentation. 其中也包含背景建模的很多种新方法的实现。
 
 ## task 2 目标检测
 todo
