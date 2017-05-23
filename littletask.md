@@ -29,13 +29,14 @@ todo
 素材：到opencv官网下载最新版 opencv.org ， opencv_contrib 到这里下载： https://github.com/opencv/opencv_contrib
 opencv_contrib 是最新的尚未加入正式版的算法。
 
+编译需要用到cmake。网上有不少参考文章。
 
 # 二、机器学习相关
 
 ## task 1 背景建模
 任务描述：输入一段监控视频（即摄像机固定不动），将背景和前景分割开来。跑通程序功能，评估各种算法效果和性能，并搞懂算法原理。
 
-素材：https://git.oschina.net/walkup/opencvexample 我整理的这个opencv例子下面，motion 是一个前景分割的例子，包含两种算法，均来自opencv的官方例子。
+素材：https://git.oschina.net/walkup/opencvexample 我整理的这个opencv例子下面，motion 是一个前景分割的例子，包含两种算法，均来自opencv的官方例子。可以直接跑。
 
 另外Opencv_contrib 里有个模块，bgsegm: Background segmentation algorithm combining statistical background image estimation and per-pixel Bayesian segmentation. 其中也包含背景建模的很多种新方法的实现。
 
