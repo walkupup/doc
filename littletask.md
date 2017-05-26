@@ -41,7 +41,8 @@ opencv_contrib 是最新的尚未加入正式版的算法。
 另外Opencv_contrib 里有个模块，bgsegm: Background segmentation algorithm combining statistical background image estimation and per-pixel Bayesian segmentation. 其中也包含背景建模的很多种新方法的实现。
 
 ## task 2 目标检测
-todo
+
+实现一个目标检测的例子，用来在视频中检测某一特定目标，例如人脸、行人、车辆等。具体实现方式及参考资源询问老师。
 
 ## task 3 手写字符识别
 todo
